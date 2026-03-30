@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Mexacraft - Servidor Oficial</title>
+
+    <!-- Fuente estilo pixel -->
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url('https://i.imgur.com/3e1QZQp.jpg');
+            background-size: cover;
+            background-position: center;
+            font-family: 'Press Start 2P', cursive;
+        }
+
+        .overlay {
+            background-color: rgba(0, 0, 0, 0.7);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        h1 {
+            color: #00ff00;
+            font-size: 40px;
+            text-shadow: 4px 4px #000;
+            margin-bottom: 20px;
+        }
+
+        p {
+            color: white;
+            font-size: 12px;
+            max-width: 600px;
+            margin-bottom: 30px;
+        }
+
+        .botones {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .boton {
+            background-color: #4CAF50;
+            border: 3px solid #2e7d32;
+            color: white;
+            padding: 15px 30px;
+            cursor: pointer;
+            text-transform: uppercase;
+            font-size: 12px;
+            box-shadow: 3px 3px #000;
+            transition: 0.2s;
+        }
+
+        .boton:hover {
+            background-color: #66bb6a;
+            transform: scale(1.05);
+        }
+
+        .ip {
+            margin-top: 40px;
+            color: yellow;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="overlay">
+        <h1>MEXACRAFT</h1>
+
+        <p>
+            Bienvenido al servidor oficial de Mexacraft. 
+            Disfruta de una experiencia única con modalidades increíbles, 
+            eventos y una comunidad activa.
+        </p>
+
+        <div class="botones">
+            <button class="boton" onclick="alert('Próximamente')">Jugar</button>
+            <button class="boton" onclick="window.open('https://discord.gg/', '_blank')">Discord</button>
+            <button class="boton" onclick="alert('Tienda en construcción')">Tienda</button>
+            <button class="boton" onclick="alert('Reglas próximamente')">Reglas</button>
+        </div>
+
+        <div class="ip">
+            IP: play.mexacraft.net
+        </div>
+    </div>
+
+</body>
+</html>
